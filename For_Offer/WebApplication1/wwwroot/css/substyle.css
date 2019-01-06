@@ -1,0 +1,247 @@
+.subicons h6{
+     margin-left: 15px;
+     font-weight: bold;
+}
+
+.subicons{
+    margin-top: 8px;
+    float: left;
+}
+
+.companies{
+    margin-top: 8px;
+    float: right;
+}
+
+.companies h6{
+   font-weight: bold;
+   margin-left: 6px;
+}
+
+.companies select{
+    background-color: beige;
+}
+
+.mobcompanies{
+    margin-top: 8px;
+    display: none;
+}
+
+.mobcompanies h6{
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.mobcompanies select{
+    background-color: beige;
+}
+
+.subicons select{
+    background-color: beige;
+    margin-left: 20px;
+}
+
+.mobfilters{
+     display: none;
+}
+
+.dropdown{
+    margin-left: 12px;
+    margin-top: -3px;
+}
+
+.btn{
+    clip-path: inset(5px 0px 0px 1px);
+    background-color: rgb(31, 118, 250);
+}
+
+.dropdown-item:hover{
+     background-color: rgb(245, 152, 65);
+}
+
+.posts{
+    margin-top: 10px;
+}
+
+.post{
+    margin-top: 12px;
+}
+
+.postlogo{
+    max-width: 115%;
+    max-height: 115%;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+.ptitle{
+    margin-top: 4px;
+    font-weight: bold;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+.titles a{
+    font-size: 12px;
+    text-decoration: underline;
+    line-height: 2px;
+}
+
+.titles{ 
+    max-height: 82px;
+}
+
+.address{
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+
+.dates{
+    margin-top: -8px;
+}
+.postdate{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.expdate{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.postimg{
+    max-width: 215px;
+    max-height: 115px;
+    display: block;
+    margin: 1px auto;
+}
+
+.heading{
+    border-bottom: 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-color: blue;
+    border-style: solid;
+    height: 78px;
+}
+
+.clear{
+    clear: both;
+}
+
+.uppart{
+    min-height: 40px;
+}
+
+.uppart h6{
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+}
+
+.posttext{
+    padding: 1px 5px;
+    min-height: 132px;
+}
+
+.posttext p{
+    font-size: 14px;
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 3px;
+    
+}
+
+.posttext a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.postcontent{
+    border: 1px solid blue;
+}
+
+
+ @media screen and (max-width: 767px){
+    .companies{
+        display: none;
+    }
+
+    .mobcompanies{
+        display: block;
+    }
+}
+
+.subname{
+    float: left;
+    margin-top: 40px;
+}
+
+.subname h6{
+    font-weight: bold;
+}
+
+.mobsubname{
+    display: none;
+    margin-left: 16px;
+    margin-top: 4px;
+    margin-bottom: -8px;
+}
+
+.mobsubname h6{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 430px){
+    .subname{
+        display: none;
+    }
+
+    .mobsubname{
+        display: block;
+    }
+}
+
+.register{
+    margin-top: 15px;
+}
+
+.register p{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.register h6{
+    font-weight: bold;
+}
+
+.enter{
+    background-color: rgb(245, 152, 65);
+    border: 1px solid rgb(245, 152, 65);
+    border-radius: 6px;
+    padding: 0px 6px 6px 4px; 
+    font-weight: 500;
+    cursor: pointer; 
+    margin-top: 6px;  
+}
+
+.loginput{
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 170px;
+    margin-right: 5px;
+}
+
+#textbox{
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
